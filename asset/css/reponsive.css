@@ -1,0 +1,152 @@
+
+
+/* Tablet  & moblie */
+@media (max-width: 63.9375em ){
+}
+/* Moblie */
+@media (max-width : 46.1875em){
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+  header{
+    /* display: flex;
+    justify-content: space-between; */
+    background: white;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .menu-bar{
+    float: right;
+    display: block;
+  }
+  header .name-logo  a{
+    font-size: 24px;
+    text-align: center;
+  }
+  .navbar {
+    /* position: absolute; */
+    background-color: white;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #eeeeee;
+    display: none;
+}
+header .navbar ul li a::before {
+    background-color: red;
+}
+header .navbar ul li {
+    display: block;
+    margin-left: 0;
+}
+header .navbar ul li a {
+    line-height: 45px;
+    color: black;
+}
+  
+  /* Home */
+  #home{
+    visibility: visible;
+    overflow: hidden;
+    background-image: url(../img/hinhbi.jpg);
+  }
+  .home-content{
+    color: white;
+    margin-top: -104px;
+    
+    margin-left: -56px;
+  }
+
+  /* About */
+  .about-content{
+    display: inline-block;
+  }
+  .about-image img{
+    border-radius: 1;
+    padding: 5px;
+    margin-left: -2px;
+  }
+ 
+  .info{
+    display: block;
+  }
+  .list{
+    width: 100%;
+  }
+  .about-text p {
+   
+    line-height: 1.5;
+  }
+  .skill-text{
+    text-align: justify;
+    font-size: 18px;
+  }
+  .skill-des__full {
+    padding: 0 30px;
+  }
+  .skill-title{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  /* Benefit */
+  .wrapper-boxs{
+    display: block;
+  }
+  .box{
+    display: inline;
+    margin-bottom: 10px;
+  }
+  .wrapper-content{
+    display: block;
+  }
+  .education{
+    width: 90%;
+    text-align: justify;
+  }
+  .mt-30{
+    margin-top: 30px;
+  }
+
+  /* Portifolio */
+  #portfolio {
+    padding: 0%;
+   }
+   .wrapper-item {
+    display: block;
+  }
+  .item {
+    max-width: 100%;
+}
+
+/* Contact */
+.wrapper-contact{
+  display: block;
+}
+.contact-img{
+  width: 200px;
+    height: 200px;
+  
+    margin: 0 auto;
+}
+.contact-input{
+  margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-input__textarea textarea{
+  max-width: 100%;
+    margin-top: 20px;
+    height: auto;
+}
+}
+
