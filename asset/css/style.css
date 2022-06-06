@@ -172,10 +172,11 @@ text-transform: uppercase;
 /* Start content */
 #about{
   background-image: url(../img/bgAbout.jpg);
- padding: 100px 15px;
+ padding: 50px 15px;
  background-size: cover;
  background-position: center;
 }
+
 #about .title-info h1::before {
   position: absolute;
   content: "";
@@ -183,8 +184,9 @@ text-transform: uppercase;
   height: 0px;
   border: 1px solid red;
   bottom: 0px;
-  left: 35%;
-  width: 30%;}
+  left: 40%;
+  width: 20%;
+}
 .about_me{
   font-size: 35px;
   font-weight: 600;
@@ -203,6 +205,9 @@ text-transform: uppercase;
 .title-info p{
   margin: 16px 0;
   
+}
+#about .title-info{
+  padding: 50px 20px;
 }
 .about-content{
   display: flex;
@@ -247,8 +252,8 @@ text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100;
-  height: 100px;
+  
+  padding: 5px;
   
 }
 .social a {
@@ -309,12 +314,13 @@ text-transform: uppercase;
 /* Benefi  */
 
 #benefit{
-  padding: 100px 50px;
+  padding: 50px 50px;
     background-color: #e8ecf4;
 }
 
 #benefit .title-info{
   text-align: center;
+  padding: 50px 20px;
 }
 #benefit .title-info h1::before {
   position: absolute;
@@ -323,8 +329,8 @@ text-transform: uppercase;
   height: 0px;
   border: 1px solid red;
   bottom: 0px;
-  left: 47%;
-    width: 6%;
+  left: 42%;
+    width: 16%;
 }
 
 .box {
@@ -375,6 +381,9 @@ text-transform: uppercase;
 }
 
 /*  Stảtt Summary */
+#summary{
+  padding: 50px 50px;
+}
 #summary .title-info h1::before {
   position: absolute;
   content: '';
@@ -382,11 +391,11 @@ text-transform: uppercase;
   height: 0px;
   border: 1px solid red;
   bottom: 0px;
-  left: 42%;
-  width: 16%;
+  left: 46%;
+    width: 8%;
 }
 #summary .title-info{
-  padding: 100px 0;
+  padding: 50px 0;
     text-align: center;
 }
 
@@ -438,12 +447,13 @@ text-transform: uppercase;
 }
 /* Portilo */
 #portfolio{
-  padding: 100px;
+  padding: 50px 50px;
   background:whitesmoke ;
 }
 
 #portfolio .title-info{
   text-align: center;
+  padding: 50px 20px;
 }
 #portfolio .title-info h1::before {
   position: absolute;
@@ -458,9 +468,10 @@ text-transform: uppercase;
 
 .item{
   position: relative;
-  max-width: 33.3%;
+  max-width: 30%;
   overflow: hidden;
   display: block;
+  margin: 15px 15px;
 }
 .item::before{
   content: '';
@@ -648,7 +659,7 @@ footer{
   text-align: center;
     background: #f3f0ed;
     align-items: center;
-    padding: 40px 20px 10px 20px;
+    padding: 10px;
    
 }
 footer h2, h3{
@@ -663,6 +674,7 @@ footer h2, h3{
 header .show {
   display: block;
 }
+
 
 
 

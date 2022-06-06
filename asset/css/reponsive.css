@@ -55,9 +55,16 @@ header .navbar ul li a {
   
   /* Home */
   #home{
-    visibility: visible;
-    overflow: hidden;
-    background-image: url(../img/hinhbi.jpg);
+    
+      visibility: visible;
+      overflow: hidden;
+      background-image: url(../img/Slide.JPG);
+      
+      background-position: right;
+      
+      background-position-x: 81%;
+     
+      
   }
   .home-content{
     color: white;
@@ -67,6 +74,21 @@ header .navbar ul li a {
   }
 
   /* About */
+  #about .about_me{
+    font-size: 28px ;
+  }
+  #about .title-info h1::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(66, 57, 64);
+    height: 0px;
+    border: 1px solid red;
+    bottom: 0px;
+    left: 18%;
+    width: 63%;
+}
+
+  
   .about-content{
     display: inline-block;
   }
@@ -96,8 +118,34 @@ header .navbar ul li a {
   .skill-title{
     font-size: 25px;
     font-weight: 500;
+    text-align: center;
   }
-  
+  .skill-texts{
+    padding: 22px;
+  }
+  /*  Summary */
+  #summary .about_me{
+    font-size: 28px;
+  }
+  #summary .title-info h1::before {
+    position: absolute;
+    content: '';
+    background-color: #423940;
+    height: 0px;
+    border: 1px solid red;
+    bottom: 0px;
+    left: 33%;
+    width: 33%;
+}
+.education-title {
+  font-weight: 600;
+  color: red;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 25px;
+  margin-top: -30px;
+}
+
   /* Benefit */
   .wrapper-boxs{
     display: block;
@@ -116,16 +164,33 @@ header .navbar ul li a {
   .mt-30{
     margin-top: 30px;
   }
+  #benefit .title-info {
+    padding: 50px 1px;
+  }
+  #benefit .about_me{
+    font-size: 28px;
+  }
+  #benefit .title-info h1::before {
+    left: 21%;
+    width: 60%;
+}
 
   /* Portifolio */
   #portfolio {
     padding: 0%;
    }
+  #portfolio .about_me{
+    font-size: 28px;
+  }
    .wrapper-item {
     display: block;
   }
   .item {
     max-width: 100%;
+}
+#portfolio .title-info h1::before {
+  left: 32%;
+  width: 35%;
 }
 
 /* Contact */
@@ -148,5 +213,7 @@ header .navbar ul li a {
     margin-top: 20px;
     height: auto;
 }
+
+
 }
 
